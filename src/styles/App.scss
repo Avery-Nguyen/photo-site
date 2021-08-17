@@ -1,0 +1,57 @@
+.app {
+ background-image: url('../photos/bd.jpg');
+ height: 100vh;
+ width: 100%;
+ background-size: cover;
+ color: white;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ font-size: 60px;
+ font-family: 'Rock Salt', cursive;
+}
+
+.about {
+  height: 100%;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ &:hover {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.75);
+  transition: backdrop-filter 2s, background-color 2s;
+ }
+}
+
+.contact{
+  height: 100%;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ &:hover {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.75);
+  transition: backdrop-filter 2s, background-color 2s;
+ }
+}
+
+.stills{
+  height: 100%;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ &:hover {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.75);
+  transition: backdrop-filter 2s, background-color 2s;
+ }
+}
+
